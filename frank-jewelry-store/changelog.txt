@@ -1,0 +1,58 @@
+Version 1.5.1
+    Added:
+        - Compatibility with Gutenberg
+        - WP GDPR Compliance plugin
+        - Alert to Demo data installation
+        - Privacy Policy, Service Plus pages
+    Changed:
+        - Update default contact forms to make them GDPR-compliant
+        - Replace default contact forms with Contact Form 7
+        - Update demo data
+    Fixed:
+        - Languages file frank-jewelry-store.pot
+        - Update plugins to their latest versions
+        - Improve theme styles
+    Removed:
+        - Support page, Video Tutorials page
+
+Version 1.5
+   * CSS minor update 
+   Fixed: Video shortcode issue -> frank-jewelry-store_v1.5.Dev\frank-jewelry-store\js\_init.js 
+   Fixed: Breadcrumbs issue -> frank-jewelry-store\includes\wp.php ( Line 280 -> $rez_parent = '<a class="breadcrumbs_item cat_post" href="'.esc_url(get_term_link($cat->term_id)).'">' ) 
+    Fixed: "trx_addons" plugin update (trx_addons\shortcodes\promo\ALL.php) - for php 7.1 
+    Fixed: Shop page display: subcategories 
+    \frank-jewelry-store\plugins\woocommerce\woocommerce.php - 578 
+    \frank-jewelry-store\includes\theme.hovers\theme.hovers.php - 171 
+    Fixed: Shop page display: Category 
+        \themes\frank-jewelry-store\js\_init.js 
+        \themes\frank-jewelry-store\plugins\woocommerce\woocommerce.php 
+        \themes\frank-jewelry-store\plugins\woocommerce\woocommerce.css 
+        \themes\frank-jewelry-store\theme-options\theme.styles.php 
+    Fixed: Logout in header top panel 
+        \themes\frank-jewelry-store\templates\header-top-panel.php 
+    * Documentation update
+
+Version 1.4.Dev.03
+	Fixed: Shop page display: Category
+		\themes\frank-jewelry-store\js\_init.js
+		\themes\frank-jewelry-store\plugins\woocommerce\woocommerce.php
+		\themes\frank-jewelry-store\plugins\woocommerce\woocommerce.css
+		\themes\frank-jewelry-store\theme-options\theme.styles.php
+	Fixed: Logout in header top panel
+		\themes\frank-jewelry-store\templates\header-top-panel.php
+
+Version 1.4
+	The theme is now compatible with version WooCommerce 3.0 and higher.
+
+Version 1.3
+	Posts load more functional fixed
+
+Version 1.2
+	Date language files update
+	Demo data updated
+
+Version 1.1
+    Style menu are updated
+
+Version 1.0
+    Release (v.1.0.04)
